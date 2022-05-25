@@ -10,9 +10,9 @@ import requests
 import pytz
 utc=pytz.UTC
 
-access = "YttVn2BhLicTA5b02xrZc5ydbqYGjvpnhbP9wTdP"
-secret = "LtpkDjfN9gNvEtgA6u3AIMqvx86bQ6rBSLzoqJlq"
-myToken = "xoxb-3149418271687-3166344806020-x3ttmDoZxutryjJ037pmS1zH"
+access = "access"
+secret = "secret"
+myToken = "token"
 
 def post_message(token, channel, text):
     """슬랙 메시지 전송"""
